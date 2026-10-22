@@ -1,0 +1,3 @@
+ml/data/raw/sell_prices.csv
+ml/artifacts/discount_model.pkl
+ml/artifacts/discount_recommendation_prototype.joblib

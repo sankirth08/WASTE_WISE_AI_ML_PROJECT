@@ -1,0 +1,7 @@
+Dataset,Rows,Columns,Missing_Values,Duplicate_Rows
+perishable_inventory,1800,12,0,0
+inventory_batches,2000,16,0,0
+discount_scenarios,10000,8,0,0
+calendar,1969,14,7542,0
+sell_prices,6841121,4,0,0
+products,10,6,0,0

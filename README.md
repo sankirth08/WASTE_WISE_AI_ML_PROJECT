@@ -1,0 +1,2 @@
+# WASTE_WISE_AI_ML_PROJECT
+Waste_Wise _AI_Ml_Project

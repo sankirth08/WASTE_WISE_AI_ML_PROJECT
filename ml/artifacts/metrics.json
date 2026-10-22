@@ -1,0 +1,49 @@
+{
+  "data_root": "data/raw",
+  "artifact_root": "artifacts",
+  "discount_data_caveat": "Discount scenarios are simulated. The model is a prototype and does not establish real customer price response.",
+  "demand_forecast": {
+    "mae": 3.631264456813028,
+    "rmse": 4.542692419422117,
+    "r2": 0.7612726226067256,
+    "lag_1d_baseline_mae": 5.3,
+    "train_rows": 1380,
+    "test_rows": 350,
+    "test_start_date": "2026-08-24",
+    "validation": "chronological rolling one-day-ahead; prices and promotions assumed known"
+  },
+  "expiry_risk": {
+    "accuracy": 0.8575,
+    "majority_class_baseline_accuracy": 0.585,
+    "balanced_accuracy": 0.8554474307486356,
+    "precision": 0.8864628820960698,
+    "recall": 0.8675213675213675,
+    "f1": 0.8768898488120951,
+    "roc_auc": 0.9365667799402739,
+    "train_rows": 1600,
+    "test_rows": 400,
+    "split": "stratified random 80/20"
+  },
+  "food_waste": {
+    "mae": 3.4163457398054624,
+    "rmse": 6.993414234284312,
+    "r2": -0.051028137226871495,
+    "zero_baseline_mae": 1.6666666666666667,
+    "train_rows": 1430,
+    "test_rows": 360,
+    "test_start_date": "2026-08-23",
+    "validation": "chronological rolling one-day-ahead; operational inputs are from the previous day"
+  },
+  "discount_recommendation_prototype": {
+    "mae": 36.38818060123858,
+    "rmse": 96.91230380764192,
+    "r2": 0.9440587884370552,
+    "mean_target_baseline_mae": 270.17538030000003,
+    "train_rows": 8000,
+    "test_rows": 2000,
+    "train_batches": 1600,
+    "test_batches": 400,
+    "validation": "grouped by batch_id; simulated scenario outcomes",
+    "recommendation_note": "Prototype recommendations maximize predicted simulated gross margin only."
+  }
+}

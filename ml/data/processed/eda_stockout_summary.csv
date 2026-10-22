@@ -1,0 +1,3 @@
+stockout_flag,average_sales,average_waste,status
+0,20.173076923076923,1.5637019230769231,No Stockout
+1,19.845588235294116,0.0,Stockout
